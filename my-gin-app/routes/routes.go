@@ -1,9 +1,7 @@
 package routes
 
-import (
-	"github.com/gin-gonic/gin"
-	"github.com/username/my-gin-app/controllers"
-)
+import "github.com/yanaga11/my-gin-app/controllers"
+import "github.com/gin-gonic/gin"
 
 func RegisterRoutes(router *gin.Engine) {
 	// ユーザー関連のルート
